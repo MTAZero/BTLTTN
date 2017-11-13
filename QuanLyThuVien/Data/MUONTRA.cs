@@ -6,19 +6,25 @@ namespace QuanLyThuVien.Data
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("CHITIETMUONS")]
-    public partial class CHITIETMUON
+    [Table("MUONTRAS")]
+    public partial class MUONTRA
     {
         public int ID { get; set; }
 
-        public int? PHIEUMUONID { get; set; }
+        [Column(TypeName = "date")]
+        public DateTime? NGAYMUON { get; set; }
+
+        public int? DOCGIAID { get; set; }
 
         public int? DAUSACHID { get; set; }
+
+        [Column(TypeName = "date")]
+        public DateTime? NGAYTRA { get; set; }
 
         public int? TRANGTHAI { get; set; }
 
         public virtual DAUSACH DAUSACH { get; set; }
 
-        public virtual PHIEUMUON PHIEUMUON { get; set; }
+        public virtual DOCGIA DOCGIA { get; set; }
     }
 }

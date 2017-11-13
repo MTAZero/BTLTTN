@@ -12,10 +12,9 @@ namespace QuanLyThuVien.Data
         {
         }
 
-        public virtual DbSet<CHITIETMUON> CHITIETMUONS { get; set; }
         public virtual DbSet<DAUSACH> DAUSACHS { get; set; }
         public virtual DbSet<DOCGIA> DOCGIAS { get; set; }
-        public virtual DbSet<PHIEUMUON> PHIEUMUONS { get; set; }
+        public virtual DbSet<MUONTRA> MUONTRAS { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

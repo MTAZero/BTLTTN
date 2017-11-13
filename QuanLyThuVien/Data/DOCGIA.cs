@@ -12,7 +12,7 @@ namespace QuanLyThuVien.Data
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public DOCGIA()
         {
-            PHIEUMUONS = new HashSet<PHIEUMUON>();
+            MUONTRAS = new HashSet<MUONTRA>();
         }
 
         public int ID { get; set; }
@@ -29,6 +29,6 @@ namespace QuanLyThuVien.Data
         public string DIACHI { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PHIEUMUON> PHIEUMUONS { get; set; }
+        public virtual ICollection<MUONTRA> MUONTRAS { get; set; }
     }
 }

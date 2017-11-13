@@ -12,7 +12,7 @@ namespace QuanLyThuVien.Data
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public DAUSACH()
         {
-            CHITIETMUONS = new HashSet<CHITIETMUON>();
+            MUONTRAS = new HashSet<MUONTRA>();
         }
 
         public int ID { get; set; }
@@ -22,6 +22,6 @@ namespace QuanLyThuVien.Data
         public string TACGIA { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CHITIETMUON> CHITIETMUONS { get; set; }
+        public virtual ICollection<MUONTRA> MUONTRAS { get; set; }
     }
 }
