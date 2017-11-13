@@ -111,7 +111,21 @@ namespace QuanLyThuVien.GUI
 
         private void btnMuon_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                int id = (int) dgvDocGia.SelectedRows[0].Cells["ID"].Value;
+                DOCGIA docgia = new DocGiaF().FindEntity(id);
+                FrmMuonSach tg = new FrmMuonSach(docgia);
+                tg.ShowDialog();
+                LoadDgvDocGia();
+            }
+            catch
+            {
+                MessageBox.Show("Chưa có độc giả nào được chọn",
+                                "Thông báo",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error);
+            }
         }
 
         private void btnTra_Click(object sender, EventArgs e)

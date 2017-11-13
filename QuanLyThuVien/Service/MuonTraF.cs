@@ -67,8 +67,15 @@ namespace QuanLyThuVien.Service
         // Xóa một đối tượng
         public bool Delete(MUONTRA sp)
         {
-            context.MUONTRAS.Remove(sp);
-            context.SaveChanges();
+            try
+            {
+                context.MUONTRAS.Remove(sp);
+                context.SaveChanges();
+            }
+            catch
+            {
+                return false;
+            }
             return true;
         }
 

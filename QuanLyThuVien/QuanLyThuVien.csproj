@@ -86,6 +86,12 @@
     <Compile Include="GUI\FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\FrmMuonSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FrmMuonSach.Designer.cs">
+      <DependentUpon>FrmMuonSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\FrmQuanLyDocGia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FrmMuonSach.resx">
+      <DependentUpon>FrmMuonSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\FrmQuanLyDocGia.resx">
       <DependentUpon>FrmQuanLyDocGia.cs</DependentUpon>

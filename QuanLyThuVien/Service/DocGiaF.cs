@@ -67,8 +67,15 @@ namespace QuanLyThuVien.Service
         // Xóa một đối tượng
         public bool Delete(DOCGIA sp)
         {
-            context.DOCGIAS.Remove(sp);
-            context.SaveChanges();
+            try
+            {
+                context.DOCGIAS.Remove(sp);
+                context.SaveChanges();
+            }
+            catch
+            {
+                return false;
+            }
             return true;
         }
     }
