@@ -85,6 +85,7 @@
             this.btnDong.FlatAppearance.BorderSize = 2;
             this.btnDong.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnDong.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnDong.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDong.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.ForeColor = System.Drawing.Color.Black;
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
@@ -106,6 +107,7 @@
             this.btnHuongDanSuDung.FlatAppearance.BorderSize = 2;
             this.btnHuongDanSuDung.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnHuongDanSuDung.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnHuongDanSuDung.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHuongDanSuDung.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuongDanSuDung.ForeColor = System.Drawing.Color.Black;
             this.btnHuongDanSuDung.Image = ((System.Drawing.Image)(resources.GetObject("btnHuongDanSuDung.Image")));
@@ -127,6 +129,7 @@
             this.btnQuanLyMuonTra.FlatAppearance.BorderSize = 2;
             this.btnQuanLyMuonTra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnQuanLyMuonTra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnQuanLyMuonTra.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQuanLyMuonTra.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyMuonTra.ForeColor = System.Drawing.Color.Black;
             this.btnQuanLyMuonTra.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanLyMuonTra.Image")));
@@ -148,6 +151,7 @@
             this.btnDocGia.FlatAppearance.BorderSize = 2;
             this.btnDocGia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnDocGia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnDocGia.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDocGia.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDocGia.ForeColor = System.Drawing.Color.Black;
             this.btnDocGia.Image = ((System.Drawing.Image)(resources.GetObject("btnDocGia.Image")));
@@ -169,6 +173,7 @@
             this.btnDauSach.FlatAppearance.BorderSize = 2;
             this.btnDauSach.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnDauSach.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnDauSach.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDauSach.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDauSach.ForeColor = System.Drawing.Color.Black;
             this.btnDauSach.Image = ((System.Drawing.Image)(resources.GetObject("btnDauSach.Image")));
